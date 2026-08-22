@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.2.0](https://github.com/nexus-module/terraform-nexus-routing/compare/v1.1.0...v1.2.0) (2026-08-22)
+
+
+### Features
+
+* bump nexus provider to 3.0.0 ([#19](https://github.com/nexus-module/terraform-nexus-routing/issues/19)) ([f405f1b](https://github.com/nexus-module/terraform-nexus-routing/commit/f405f1b5448335735f6566a64a0797f4965a249c))
+
 ## [1.1.0](https://github.com/devops-ia/terraform-nexus-routing/compare/v1.0.0...v1.1.0) (2024-08-07)
 
 
