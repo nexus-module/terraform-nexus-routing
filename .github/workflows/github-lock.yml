@@ -9,4 +9,4 @@ jobs:
     permissions:
       issues: write
       pull-requests: write
-    uses: nexus-module/.github/.github/workflows/reusable-lock.yml@main
+    uses: nexus-module/.github/.github/workflows/github-lock.yml@main
