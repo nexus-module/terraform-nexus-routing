@@ -9,4 +9,4 @@ jobs:
   call-workflow:
     permissions:
       contents: read
-    uses: nexus-module/.github/.github/workflows/reusable-pre-commit.yml@main
+    uses: nexus-module/.github/.github/workflows/terraform-pre-commit.yml@main

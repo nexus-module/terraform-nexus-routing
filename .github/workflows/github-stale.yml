@@ -9,4 +9,4 @@ jobs:
     permissions:
       issues: write
       pull-requests: write
-    uses: nexus-module/.github/.github/workflows/reusable-stale.yml@main
+    uses: nexus-module/.github/.github/workflows/github-stale.yml@main

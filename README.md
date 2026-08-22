@@ -60,7 +60,7 @@ module "nexus_routing_rule" {
 | Name | Version |
 |------|---------|
 | <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | >= 1.3.0 |
-| <a name="requirement_nexus"></a> [nexus](#requirement\_nexus) | >= 2.0.0 |
+| <a name="requirement_nexus"></a> [nexus](#requirement\_nexus) | >= 3.0.0 |
 
 ### Providers
 
@@ -91,3 +91,38 @@ No resources.
 ## Authors
 
 Module is maintained by [DevOps IA](https://github.com/devops-ia) with help from [these awesome contributors](https://github.com/nexus-module/terraform-nexus-routing/graphs/contributors).
+
+<!-- BEGIN_TF_DOCS -->
+## Requirements
+
+| Name | Version |
+|------|---------|
+| <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | >= 1.3.0 |
+| <a name="requirement_nexus"></a> [nexus](#requirement\_nexus) | >= 3.0.0 |
+
+## Providers
+
+No providers.
+
+## Modules
+
+| Name | Source | Version |
+|------|--------|---------|
+| <a name="module_nexus_routing_rule"></a> [nexus\_routing\_rule](#module\_nexus\_routing\_rule) | ./modules/nexus-routing-rule | n/a |
+
+## Resources
+
+No resources.
+
+## Inputs
+
+| Name | Description | Type | Default | Required |
+|------|-------------|------|---------|:--------:|
+| <a name="input_nexus_routing_rule"></a> [nexus\_routing\_rule](#input\_nexus\_routing\_rule) | Routing Rule. | <pre>list(object({<br>    name        = string<br>    matchers    = set(string)<br>    description = optional(string)<br>    mode        = optional(string)<br>  }))</pre> | `[]` | no |
+
+## Outputs
+
+| Name | Description |
+|------|-------------|
+| <a name="output_routing_rule_name"></a> [routing\_rule\_name](#output\_routing\_rule\_name) | The name of the routing rule. |
+<!-- END_TF_DOCS -->
